@@ -1,7 +1,7 @@
 #!/bin/bash
 D=$(date +%F:%H:%M:%S)
 SCRIPT_NAME=$0
-LOG_PATH=/home/centos/roboshell/logs
+LOG_PATH=/home/centos/roboshell_terraformm/logs
 LOGFILE=$LOG_PATH/$0-$D-log
 u=$(id -u)
 R="\e[31m"
@@ -23,7 +23,7 @@ validate(){
     fi
 }
 
-cp -rp /home/centos/roboshell/mongo.repo /etc/yum.repos.d/mongo.repo &>>$LOGFILE
+cp -rp /home/centos/roboshell_terraformm/mongo.repo /etc/yum.repos.d/mongo.repo &>>$LOGFILE
 
 validate $? "copy repo" 
 
