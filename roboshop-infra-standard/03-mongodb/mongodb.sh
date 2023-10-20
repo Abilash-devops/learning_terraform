@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /tmp
-git clone https://github.com/sivadevopsdaws74s/roboshop-shell.git
-cd roboshop-shell
+cd /home/centos
+git clone https://github.com/Abilash-devops/roboshell_terraformm.git
+cd roboshell_terraformm
 sh mongodb.sh
