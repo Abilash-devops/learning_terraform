@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket   = "roboshop-remote-state"
-    key = "vpc"
+     bucket   = "roboshop-terraform-padmasrikanth"
+    key = "01a-vpc"
     region = "us-east-1"
-    dynamodb_table = "roboshop-locking"
+    dynamodb_table = "roboshop"
   }
 }
 
