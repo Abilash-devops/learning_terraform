@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket   = "roboshop-remote-state"
-    key = "mysql"
+    bucket   = "roboshop-terraform-padmasrikanth"
+    key = "11a-mysql"
     region = "us-east-1"
-    dynamodb_table = "roboshop-locking"
+    dynamodb_table = "roboshop"
   }
 }
 

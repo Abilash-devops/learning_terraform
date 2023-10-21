@@ -42,7 +42,7 @@ variable "security_group_id" {
   
 }
 variable "launch_template_tags" {
-  default = []
+  
 }
 
 variable "user_data" {
@@ -74,7 +74,7 @@ variable "vpc_zone_identifier" {
 }
 
 variable "tag" {
-  default = []
+  
 }
 
 variable "autoscaling_cpu_target" {

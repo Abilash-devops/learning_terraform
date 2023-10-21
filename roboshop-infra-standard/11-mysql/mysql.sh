@@ -1,5 +1,5 @@
 #!/bin/bash
 cd /home/centos
-git clone https://github.com/sivadevopsdaws74s/roboshop-shell-tf.git
-cd roboshop-shell-tf
+git clone https://github.com/Abilash-devops/roboshell_terraformm.git
+cd roboshell_terraformm
 sh mysql.sh

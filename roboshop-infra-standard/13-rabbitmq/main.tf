@@ -1,7 +1,7 @@
 module "rabbitmq_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   ami = data.aws_ami.devops_ami.id
-  instance_type = "t3.medium"
+  instance_type = "t2.micro"
   vpc_security_group_ids = [data.aws_ssm_parameter.rabbitmq_sg_id.value]
   # it should be in Roboshop DB subnet
   subnet_id = local.db_subnet_id
